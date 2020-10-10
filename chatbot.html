@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chatbot</title>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="chatbot.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+	<h1>IPLXBOT</h1>
+	
+ 	<div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+              <div class="carousel-item active">
+              	<div>
+					<div class="item active main col-xs-10 col-sm-8 col-md-6 col-lg-4 ">
+						<div class="chat">
+							<ul>
+							</ul>
+						</div>
+						<div id="input" class="row ">
+							<div class="d-flex p-2 bd-highlight col-xs-12">
+								<i class=" fas fa-comments"></i>
+								<input type="text" >
+								<button onclick="add()"><i class="fas fa-paper-plane"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+            <div class="carousel-item">
+
+               <div class="row" id="features">
+				<div class="col-sm-2"></div>
+                 <div class="feature-box col-sm-2 col-lg-4">
+                      <img src="robot (1).png" alt="">
+                   </div>
+                   <div class="feature-box col-sm-6 col-lg-4 c-1">
+                     <i class="fas fa-comment-dots"></i>
+                       <span class="popuptext">
+                       		INSTRUCTIONS<br><br>
+                       		Hi...Welcome to IPLXChatBot!<br>
+                       		To chat with me, go to the chat window and drop your questions!<br>
+                       		Use me to clarify all your queries related to IPL now!
+                       </span>
+                   </div>
+                   <div class="col-sm-2"></div>
+                 </div>
+                 </div>
+                 <div class="carousel-item">
+                 		<h4>SAMPLE</h4>
+                 		<div>
+							<div class="item active main col-xs-10 col-sm-8 col-md-6 col-lg-4 ">
+								<div style="height: 68vh;padding-right:10px;overflow: hidden; ">
+									<p class="question">Which team won most matches in 2016?</p>
+									<p class="answer">Gujrat Lions won most matches in 2016.</p>
+									<p class="question">Who was the umpire in the first match in 2017?</p>
+									<p class="answer">AY Dandekar was umpire 1 in the first match of 2017.</p>
+									<p class="question">What was toss decision on last match of 2009?</p>
+									<p class="answer">Toss decision was to field.</p>
+								</div>
+								<div id="input" class="row " >
+									<div class="d-flex p-2 bd-highlight col-xs-12">
+										<i class=" fas fa-comments"></i>
+										<input type="text" disabled="disabled" value="Where was the match on 14/">
+										<button><i class="fas fa-paper-plane"></i></button>
+									</div>
+								</div>
+							</div>
+					</div>
+
+                 </div>
+             
+         </div>
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+</body>
+<script type="text/javascript" src="chatbot.js"></script>
+</html>

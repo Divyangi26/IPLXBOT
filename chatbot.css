@@ -1,0 +1,129 @@
+
+body{
+	background-image: url('https://thumbs.gfycat.com/EllipticalCostlyChrysomelid-size_restricted.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main{
+	text-align: right;
+	margin:3vh auto;
+	background-color: rgb(255,255,255,0.1);
+	padding:2vh 0 8vh 0;
+	height: 80vh;
+	border-radius: 5px;
+}
+.chat{
+	height: 68vh;
+	padding-right:10px;
+    overflow-x: hidden; 
+    overflow-y: auto; 
+}
+.chat::-webkit-scrollbar {
+    width: 12px;
+    background-color: rgb(255,255,255,0.8);
+    border-radius: 10px;
+}
+.chat::-webkit-scrollbar-thumb {
+    background: #237587;
+    border-radius: 10px;
+}
+/*#input{
+	position: absolute;
+	bottom:5px;
+}*/
+input{
+	outline: none;
+	border:none;
+	padding:5px;
+	font-weight: bolder;
+	border-radius: 5px 0 0 6px;
+	background-color: white;
+}
+.fa-comments{
+	margin: 0;
+	font-size: 25px;
+	padding:0 6px;
+	color: white;
+}
+.fa-paper-plane{
+	font-size: 25px;
+	padding:0px 6px;
+	margin: 0;
+}
+.question{
+  font-weight: bolder;
+  list-style: none;
+  background-color:white;
+  padding:2px 8px;
+  margin:15px 0;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px 0 8px 8px;
+  display: inline-block;
+  word-wrap: break-word:
+  color:black;
+}
+/*ul li:nth-child(2n){
+	background-color:#237587 ;
+	color:white;
+}*/
+.answer{
+  float:left;
+  text-align: left;
+  font-weight: bolder;
+  list-style: none;
+  padding:2px 8px;
+  margin:15px 0;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  border-radius:  0 8px 8px 8px;
+  display: inline-block;
+  word-wrap: break-word;
+  background-color: #237587;
+  color:white;
+}
+button{
+	padding:3px;
+	outline: none;
+	border:none;
+}
+
+h1{
+	text-align: center;
+	padding-top:5vh;
+	color: white;
+}
+h4{
+	text-align: center;
+	padding:2vh 0;
+	color: white;
+}
+
+img
+{
+  height:250px;
+}
+
+#features
+{
+  padding: 7% 10vw 0 0;
+  background-color:#black;
+  position: relative;
+  color:#fff;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.c-1
+{
+  background-color: rgb(255,255,255,0.8);
+  color:black;
+  height:300px;
+  border-radius: 20%;
+}
+.popuptext{
+  font-weight: bolder;
+}
